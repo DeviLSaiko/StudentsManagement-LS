@@ -250,6 +250,7 @@
     <Content Include="STMT\Marks\MarksEntry.aspx" />
     <Content Include="STMT\Students\Students.aspx" />
     <Content Include="STMT\Students\StudentsRegistration.aspx" />
+    <Content Include="STMT\Subjects\AddSubjects.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -442,6 +443,13 @@
     </Compile>
     <Compile Include="STMT\Students\StudentsRegistration.aspx.designer.cs">
       <DependentUpon>StudentsRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STMT\Subjects\AddSubjects.aspx.cs">
+      <DependentUpon>AddSubjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STMT\Subjects\AddSubjects.aspx.designer.cs">
+      <DependentUpon>AddSubjects.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
