@@ -38,11 +38,16 @@ namespace WebUi
                 GS_Students A_Students = new GS_Students();
 
                 A_Students.Name = txtName.Text;
+                A_Students.GardName = txtGardName.Text;
+                A_Students.Email = txtEmail.Text;
+                A_Students.DOB = txtDOB.Text;
+                A_Students.Gender = DdGen.SelectedValue;
                 A_Students.Mobile = Convert.ToInt32(txtContact.Text);
                 A_Students.Batch = Convert.ToInt32(txtBatch.Text);
                 A_Students.DepartmentID = Convert.ToInt32(ddDepart.SelectedValue);
-                A_Students.Joindate = txtDateofJo.Text;
+                A_Students.Address = txtAddress.Text;
                 A_Students.Active = true;
+                A_Students.Address = txtAddress.Text;
                 MyoBj.RegisterStudent(A_Students);
 
                 txtBatch.Text = string.Empty;
@@ -51,7 +56,7 @@ namespace WebUi
             }
             catch
             {
-                txtError.Text = "Error Addding studnt ";
+                
             }
 
         }

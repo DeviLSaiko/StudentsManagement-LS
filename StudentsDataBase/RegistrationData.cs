@@ -29,7 +29,7 @@ namespace StudentsDataBase
             MyCmd.Parameters.AddWithValue("@ContactNo", a_Student.Mobile);
             MyCmd.Parameters.AddWithValue("@Batch", a_Student.Batch);
             MyCmd.Parameters.AddWithValue("@DepartmentID", a_Student.DepartmentID);
-            MyCmd.Parameters.AddWithValue("@JoinDate", a_Student.Joindate);
+            MyCmd.Parameters.AddWithValue("@JoinDate", a_Student.DOB);
             MyCmd.Parameters.AddWithValue("@Active", a_Student.Active);
             MyCmd.ExecuteNonQuery();
             MyCon.Close();

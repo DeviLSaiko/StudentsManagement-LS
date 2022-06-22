@@ -22,12 +22,9 @@ namespace WebUi.STMT.Students
                 IStudents MyoBj = RegistrationFactory.CreateStudentObject();
                 GS_Students A_Students = new GS_Students();
 
-                 B
+               
 
-                myada.Fill(MyTable);
-
-                GridView.DataSource = MyTable;
-                GridView.DataBind();
+                 
             }
 
              
